@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanna Microblog</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Microblog</h1>
+        </header>
+        
+        <section class="post-form">
+            <h2>Create a new post</h2>
+            <form id="newPostForm">
+                <input type="text" id="postTitle" placeholder="Title" >
+                <textarea id="postContent" placeholder="What's on your mind?" ></textarea>
+                <input type="file" id="postImage" accept="image/*">
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+        <section class="posts">
+            <h2>Recent Posts</h2>
+            <div id="postsContainer">
+                <!-- Posts will appear here -->
+            </div>
+        </section>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
